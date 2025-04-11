@@ -5,7 +5,8 @@ from portia import (
     Portia,
     PortiaToolRegistry,
     StorageClass,
-    example_tool_registry
+    example_tool_registry,
+    execution_context
 )
 from portia.cli import CLIExecutionHooks
 
@@ -29,5 +30,6 @@ portia = Portia(
     execution_hooks=CLIExecutionHooks(),
 )
 
-plan_run = portia.run(task0)
-print(plan_run.outputs)
+with execution_context(end_user_id="emzi"):
+    plan_run = portia.run(task0)
+    print(plan_run.outputs)

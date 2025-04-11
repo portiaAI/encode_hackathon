@@ -11,7 +11,6 @@ from portia import (
     MultipleChoiceClarification,
     ActionClarification
 )
-from portia.cli import CLIExecutionHooks
 
 load_dotenv()
 

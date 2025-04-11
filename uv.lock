@@ -277,7 +277,7 @@ dependencies = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "portia-sdk-python", extras = ["tools-browser-browserbase"] }]
+requires-dist = [{ name = "portia-sdk-python", extras = ["tools-browser-browserbase"], specifier = ">=0.1.14" }]
 
 [[package]]
 name = "et-xmlfile"
@@ -956,7 +956,7 @@ wheels = [
 
 [[package]]
 name = "portia-sdk-python"
-version = "0.1.13"
+version = "0.1.14"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "anthropic" },
@@ -979,9 +979,9 @@ dependencies = [
     { name = "python-dotenv" },
     { name = "tiktoken" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/80/01/bbfe7ccfc71076c5767dd59c9274324a672b039ecdefbf094a4904c7d116/portia_sdk_python-0.1.13.tar.gz", hash = "sha256:a16be2f1bc613bf5e2f52edde933595f12e26cd58f76f93ada833a5bd5ad6eba", size = 94855 }
+sdist = { url = "https://files.pythonhosted.org/packages/38/42/faf2ed90d4864037b4c443444a08acc31abab7bf7226086d9cf700108a01/portia_sdk_python-0.1.14.tar.gz", hash = "sha256:86f171fa6f281fbf965795a45b275cdbf07599c537293f6df4c5ebdddacdbffa", size = 94839 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/59/c9/761a88a205234eb425390a1523bdc5f81045882d368bcb66ca8856c919da/portia_sdk_python-0.1.13-py3-none-any.whl", hash = "sha256:22f227134f1e7a2065f8d161b206af4198d7e026d967b3dacdefb6b7285b7c2a", size = 117576 },
+    { url = "https://files.pythonhosted.org/packages/65/e1/ac32a1132416236fdc5ce99d842d4d7d0e518a13af9179442b6f6985109f/portia_sdk_python-0.1.14-py3-none-any.whl", hash = "sha256:c8176e312244c4c3fc9dbad713464088075c07c1584eef2173318e6b93712665", size = 117561 },
 ]
 
 [package.optional-dependencies]
